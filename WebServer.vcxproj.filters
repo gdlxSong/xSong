@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="accept">
+      <UniqueIdentifier>{efd49cda-af2e-44f8-a495-07097e7550e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gdlTool">
+      <UniqueIdentifier>{db81464e-5600-4c61-89a7-89ee9aea747c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{07179391-cafe-4210-8864-289981b2696a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>accept</Filter>
+    </ClCompile>
+    <ClCompile Include="setSock.cpp">
+      <Filter>gdlTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="setSock.h">
+      <Filter>gdlTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
